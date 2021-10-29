@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+li{
+
+    list-style: none;
+
+}
+
+
+/* navbar style start */
+.main-nav{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 100%;
+    height: 10rem;
+    display: grid;    
+    grid-template-columns: 10rem 2fr 2fr 10rem;
+  }
+  
+  
+.logo{
+      grid-column: 2/3;
+      display: grid;
+      justify-content: start;
+      align-items: center;
+  }
+  
+  
+  .logo h2{
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase; 
+  background: -webkit-linear-gradient(#eee, rgb(177, 26, 96));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  .logo h2 span{
+      font-size: 3.5rem;  
+  }
+  
+  
+  .menu-link{
+      grid-column: 3/4;
+  }
+  
+  .menu-link ul{
+      height: 10rem;
+      display: flex;
+      align-items: center;
+      float: right;
+  }
+  
+  .menu-link ul li {
+      font-size: 1.8rem;
+  }
+  
+  
+  .menu-link ul li a{
+  color: rgba(0, 0, 3, 0.8);
+  transition: 0.5s;
+  padding: 18px;
+  }
+  
+
+  .menu-link ul li:hover> a{
+  transform-origin: left;
+  color: rgba(22, 22, 179, 0.8);
+  text-decoration:underline;
+  transition: 0.5s;
+  }
+
+/* main style */
+main{
+    min-height: 100vh;
+}
+
+
+/* footer style*/
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(139, 36, 84);
+  }
+
+footer p{
+    color:#fff;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 5rem;
+  } 
+
+
+/* About us page*/
+.section{
+	width: 100%;
+	min-height: 70vh;
+	background-color: #4c4563;
+}
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+	color:#fff;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#fff;
+	font-size: 21px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color:#fff;
+}
+.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #322a4d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #534580;
+	color:#fff;
+}
+
+
+/* Contact us page*/
+div .text-center{
+    font-size: 3rem;
+}
+
+.box{
+width: 100%;
+height: 80rem;
+display: grid;
+grid-template-columns: 10rem 4fr 2fr 10rem;
+justify-items: start;
+align-content: center;
+}
+
+
+.box .box-1{
+    grid-column: 2/3;
+    width: 900px;
+    height: 40rem;
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+    margin-top: -287px;
+}
+
+
+.box .box-2{
+    background-color: #d5e0e5;
+    width: 300px;
+	height: 40rem;
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+    grid-column: 3/4;
+    margin-top: -287px;   
+}
+
+
+.container-jane{
+	padding: 0 16px;
+}
+
+
+.container-jane  h2{
+    font-size: 2.5rem;
+	color: #000;
+	margin-top: 20px;
+	text-align: left;
+}
+
+
+.container-jane .title-jane{
+	color: grey;
+	margin-top: 25px;
+	text-align: left;
+}
+
+
+.container-jane  p{
+	text-transform: uppercase;
+	font-size: 1.9rem;
+	color:#201d1dd7;
+	margin-top: 25px;
+	text-align: left;
+}
+
+.box-1 .row{
+    margin-top:-11px;
+}
+
+.form-group {
+    padding: 12px 166px;
+}
+
+input#name {
+    padding: 12px;
+}
+
+input#email {
+    padding: 12px;
+}
+
+
+textarea#exampleFormControlTextarea1 {
+    padding: 19px;
+    padding-left: 12px;
+}
+
+
+.block {
+    display: block;
+    width: 64%;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 158px;
+    border-radius: 25px;
+ 
+  }
+
+
+
